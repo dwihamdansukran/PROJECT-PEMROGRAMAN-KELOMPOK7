@@ -1,20 +1,20 @@
-001 | Medan Elektromagnetik | Dr. Jaja Kustija Aditama | PT Refika Aditama | 200 | 2022
-002 | Analisis Jalur | Dr.  H. Juanim, S.E., M.Si. | Relasi Inti Media Group  | 250 | 2020
-003 | Cybersecurity | Dr. Tasya Safiranita Ramli, S.H., M.H. | Alprin Finishing | 310 | 2023
-004 | Pengolahan Sinyal Diital | Dr. Ir. Suwandi, M.T | Raih Asa Sukses| 2020
-005 | Hukum Perdata Indonesia | Dr. Bambang Daru Nugroho, S.H., M.H | Puspa Swara | 388 | 2017
-006 | Cerita Inspiratif | Y.Budi Artati | Aksarra Sinergi Media PT | 230 | 2018
-007 | Teknik Membaca | Nurhadi | Bumi Aksara | 217 | 2016
-008 | Rangkuman Pengetahuan Umum Lengkap | Sugeng HR | Aneka Ilmu | 328 | 2014 
-009 | All New Mega Bank Soal Kimia SMA | Imam Himawan | Tim Guru Eduka | 442 | 2016 
-010 | Sosiologi Bingual SMA | M. Taupan | Yrama Widya | 248 | 2008 
-011 | Emotional Spiritual Quotient Jilid 1 | Ary Ginanjar | PT Arga Gilanta | 401 | 2001 
-012 | Budgeting Edisi 1 | Drs. M. Munandar | BPFE | 349 | 2000
-013 | Pengantar Manajemen | Ernie Tisnawati |Prenada Media | 426 | 2005
-014
-015
-016
-017
-018
-019
-020
+001 | Medan Elektromagnetik | Dr. Jaja Kustija Aditama | PT Refika Aditama | 200 | 2022 | 13
+002 | Analisis Jalur | Dr.  H. Juanim, S.E., M.Si. | Relasi Inti Media Group  | 250 | 2020 | 20
+003 | Cybersecurity | Dr. Tasya Safiranita Ramli, S.H., M.H. | Alprin Finishing | 310 | 2023 | 8
+004 | Pengolahan Sinyal Diital | Dr. Ir. Suwandi, M.T | Raih Asa Sukses| 2020 | 16
+005 | Hukum Perdata Indonesia | Dr. Bambang Daru Nugroho, S.H., M.H | Puspa Swara | 388 | 2017 | 7
+006 | Cerita Inspiratif | Y.Budi Artati | Aksarra Sinergi Media PT | 230 | 2018 | 8
+007 | Teknik Membaca | Nurhadi | Bumi Aksara | 217 | 2016 | 9
+008 | Rangkuman Pengetahuan Umum Lengkap | Sugeng HR | Aneka Ilmu | 328 | 2014 | 12
+009 | All New Mega Bank Soal Kimia SMA | Imam Himawan | Tim Guru Eduka | 442 | 2016 | 11
+010 | Sosiologi Bingual SMA | M. Taupan | Yrama Widya | 248 | 2008 | 9
+011 | Emotional Spiritual Quotient Jilid 1 | Ary Ginanjar | PT Arga Gilanta | 401 | 2001 | 6
+012 | Budgeting Edisi 1 | Drs. M. Munandar | BPFE | 349 | 2000 | 8
+013 | Pengantar Manajemen | Ernie Tisnawati |Prenada Media | 426 | 2005 | 7
+014 | Pengantar Teknologi Informasi | Buhori Muslim | Deepublish | 392 | 2017 | 11
+015 | Komputer Cerdas Untuk Teknik Informatika | Nur Nafiiyah | Deepublish | 243 | 2017 | 13
+016 | Aplikasi Komputer | Dwi Krisbiantoro | Deepublish | 167 | 2018 | 7
+017 | Algoritma Pemrograman | Rinaldi Munir | ENF Cinematika | 264 | 2012 | 8
+018 | Metode Penelitian Teknik Informatika | Ade Johar Maturidi | Deepublish | 135 | 2017 | 6
+019 | Dasar-dasar Teknik Informatika | Novega Pratama | Deepublish | 117 | 2020 | 12
+020 | Ensiklopedia Komputer dan Teknologi Informasi | Bimo Sunarfri | PT Skripta Media Creative | 342 | 2017 | 12
