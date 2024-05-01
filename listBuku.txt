@@ -1,11 +1,11 @@
-001
-002
-003
-004
-005
-006
-007
-008
+001 | Medan Elektromagnetik | Dr. Jaja Kustija Aditama | PT Refika Aditama | 200 | 2022
+002 | Analisis Jalur | Dr.  H. Juanim, S.E., M.Si. | Relasi Inti Media Group  | 250 | 2020
+003 | Cybersecurity | Dr. Tasya Safiranita Ramli, S.H., M.H. | Alprin Finishing | 310 | 2023
+004 | Pengolahan Sinyal Diital | Dr. Ir. Suwandi, M.T | Raih Asa Sukses| 2020
+005 | Hukum Perdata Indonesia | Dr. Bambang Daru Nugroho, S.H., M.H | Puspa Swara | 388 | 2017
+006 | Cerita Inspiratif | Y.Budi Artati | Aksarra Sinergi Media PT | 230 | 2018
+007 | Teknik Membaca | Nurhadi | Bumi Aksara | 217 | 2016
+008 
 009
 010
 011
