@@ -5,12 +5,12 @@
 005 | Hukum Perdata Indonesia | Dr. Bambang Daru Nugroho, S.H., M.H | Puspa Swara | 388 | 2017
 006 | Cerita Inspiratif | Y.Budi Artati | Aksarra Sinergi Media PT | 230 | 2018
 007 | Teknik Membaca | Nurhadi | Bumi Aksara | 217 | 2016
-008 
-009
-010
-011
-012
-013
+008 | Rangkuman Pengetahuan Umum Lengkap | Sugeng HR | Aneka Ilmu | 328 | 2014 
+009 | All New Mega Bank Soal Kimia SMA | Imam Himawan | Tim Guru Eduka | 442 | 2016 
+010 | Sosiologi Bingual SMA | M. Taupan | Yrama Widya | 248 | 2008 
+011 | Emotional Spiritual Quotient Jilid 1 | Ary Ginanjar | PT Arga Gilanta | 401 | 2001 
+012 | Budgeting Edisi 1 | Drs. M. Munandar | BPFE | 349 | 2000
+013 | Pengantar Manajemen | Ernie Tisnawati |Prenada Media | 426 | 2005
 014
 015
 016
