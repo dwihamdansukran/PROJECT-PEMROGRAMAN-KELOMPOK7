@@ -18,3 +18,33 @@
 018 | Metode Penelitian Teknik Informatika | Ade Johar Maturidi | Deepublish | 135 | 2017 | 6
 019 | Dasar-dasar Teknik Informatika | Novega Pratama | Deepublish | 117 | 2020 | 12
 020 | Ensiklopedia Komputer dan Teknologi Informasi | Bimo Sunarfri | PT Skripta Media Creative | 342 | 2017 | 12
+021 | Kepemimpinan Perempuan | Fatri Hayani | IPB Press | 111 | 2023 | 7 
+022 | Leadership Coaching | Susy Setiawati | MNC Publishing | 406 | 2017 | 4
+023 | Program Linier dan Aplikasinya | Darta, S.Pd., M.Pd. | PT Refika Aditama | 314 | 2019 | 11
+024 | Mencetak Generasi Cerdas Berkualitas | Wahjudi Djaja, S.S. | Cempaka Putih PT | 222 | 2017 | 10
+025 | Hukum Fintech Lending | Prof. Dr. H. Saifullahm S.H. | PT Buku Kompas | 569 | 2023 | 2
+026 | Konstitusi Ekonomi | Prof. Dr. Jimly Asshiddiqie, S.H. | Penerbit Buku Kompas | 145 | 2016 | 7
+027 | Apresiasi Prosa | Uti Darmawati | Intan Pariwara PT | 142 | 2014 | 8
+028 | Sosiolinguistik | Dr. Mansoer Pateda | Angkasa CV | 240 | 2015 | 28
+029 | Kamus Korea Indonesia | Tim Kesaint Blanc | Kesaint Blanc | 681 | 2014 | 14
+030 | Poetry | M.G Sriningsih | MNC Publishing | 75 | 2017 | 9
+031 | Rumah Pohon | Ariany Syurfah | Penebar Swadaya | 416 | 2012 | 10
+032 | Ikhtisar Ilmu Saraf | M. Zulfy Abdul Malik Al-galushi | Unpad Press | 166 | 2023 | 9
+033 | Pakeman Basa Sunda | Yayat Sudaryat | Dunia Pustaka Jaya PT | 457 | 2016 | 8
+034 | Menyimak | Henry Guntur Tarigan | Angkasa CV | 407 | 2008 | 58
+035 | Complete Italian Volume 3 | Lydia Vellacio | Kesaint Blanc | 286 | 2013 | 10
+036 | Teori Bipa | Defina | IPB Press | 460 | 2020 | 9
+037 | Si Bontot yang Manja | Mujiatun | Alprin Finishing | 99 | 2019 | 13 
+038 | Kawruh Sapala Jawa | Setya Amrih Prasaja Group | PT Tangga Pustaka | 102 | 2015 | 20
+039 | Gerabah yang Cantik | Suliswinarni | Alprin Finishing | 210 | 2019 | 10
+040 | Persahabatan Ucok dan Made | Asrori | Alprin Finishing | 53 | 2019 | 5
+041
+042
+043
+044
+045
+046
+047
+048
+049
+050
