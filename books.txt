@@ -38,13 +38,18 @@
 038 | Kawruh Sapala Jawa | Setya Amrih Prasaja Group | PT Tangga Pustaka | 102 | 2015 | 20
 039 | Gerabah yang Cantik | Suliswinarni | Alprin Finishing | 210 | 2019 | 10
 040 | Persahabatan Ucok dan Made | Asrori | Alprin Finishing | 53 | 2019 | 5
-041
-042
-043
-044
-045
-046
-047
-048
-049
-050
+041 | YOU DO YOU Discovering Life throught Experiments & Self-Awerness | Fellexandro Ruby | PT Gramedia Pustaka Utama | 254 | 2020 | 10
+042 | Thinking, Fast and Slow | Daniel Kahneman | PT Gramedia Pustaka Indonesia | 652 | 2013 | 3
+043 | The Sun and Her Flowers | Rupi Kaur | Andrews McMeel | 243 | 2017 | 5
+044 | The School for Good and Evil | Soman Chainani | HarperCollins Publishers | 582 | 2013 | 4
+045 | The Power of Negative Word | Edi Susanto | Metagraf | 272 | 2018 | 3
+046 | The Life Changing Magic of Tyding Up | Marie Kondo | Sunmark Publishing | 222 | 2011 | 2
+047 | The Last Law of Attraction Book You’ll Ever Need to Read | Andraw Kap | Awesome Marvelous I 2019 | 4
+048 |The Chimp Paradox | Prof. Steve Peters | PT Gramedia Pustaka Indonesia | 400 | 2019 | 1
+049 |Educated | Tara Westover | PT Gramedia Pustaka Indonesia|512|2018|5
+050 | Self Healing With Quran | Ummu Kalsum Iqt | Syalmahat Publishing | 186 | 2022 | 7
+051 |It’s Okay, You’re Just Different | Kim Doo Eung | PT Gramedia Puataka Indonesia | 246 | 2018 | 3
+052 |Seni Berbicara(Revisi) | Larry King & Bill Gilbert | PT Gramedia Pustaka Indonesia | 285 | 2019 | 4
+053 | SECRET OF DEVINE LOVE a Spiritual Journey into the Heart of Islam | A. Helwa | Naulit Publishing House | 370 | 2020 | 4
+054 | PSIKOLOGI KOMUNIKASI Suatu Pengantar dan Perspektif Islam | Rila Setyaningsih | UNIDA Gontor Press | 245 | 2019 | 6
+055 | PSIKOLOGI ISLAM: Kajian Teoritik dan Penelitian Empirik| Tim Asosiasi Psikologi Islam| Istana Publishing | 570 | 2020 | 3
