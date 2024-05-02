@@ -1,55 +1,99 @@
-001 | Medan Elektromagnetik | Dr. Jaja Kustija Aditama | PT Refika Aditama | 200 | 2022 | 13
-002 | Analisis Jalur | Dr.  H. Juanim, S.E., M.Si. | Relasi Inti Media Group  | 250 | 2020 | 20
-003 | Cybersecurity | Dr. Tasya Safiranita Ramli, S.H., M.H. | Alprin Finishing | 310 | 2023 | 8
-004 | Pengolahan Sinyal Diital | Dr. Ir. Suwandi, M.T | Raih Asa Sukses| 2020 | 16
-005 | Hukum Perdata Indonesia | Dr. Bambang Daru Nugroho, S.H., M.H | Puspa Swara | 388 | 2017 | 7
-006 | Cerita Inspiratif | Y.Budi Artati | Aksarra Sinergi Media PT | 230 | 2018 | 8
-007 | Teknik Membaca | Nurhadi | Bumi Aksara | 217 | 2016 | 9
-008 | Rangkuman Pengetahuan Umum Lengkap | Sugeng HR | Aneka Ilmu | 328 | 2014 | 12
-009 | All New Mega Bank Soal Kimia SMA | Imam Himawan | Tim Guru Eduka | 442 | 2016 | 11
-010 | Sosiologi Bingual SMA | M. Taupan | Yrama Widya | 248 | 2008 | 9
-011 | Emotional Spiritual Quotient Jilid 1 | Ary Ginanjar | PT Arga Gilanta | 401 | 2001 | 6
-012 | Budgeting Edisi 1 | Drs. M. Munandar | BPFE | 349 | 2000 | 8
-013 | Pengantar Manajemen | Ernie Tisnawati |Prenada Media | 426 | 2005 | 7
-014 | Pengantar Teknologi Informasi | Buhori Muslim | Deepublish | 392 | 2017 | 11
-015 | Komputer Cerdas Untuk Teknik Informatika | Nur Nafiiyah | Deepublish | 243 | 2017 | 13
-016 | Aplikasi Komputer | Dwi Krisbiantoro | Deepublish | 167 | 2018 | 7
-017 | Algoritma Pemrograman | Rinaldi Munir | ENF Cinematika | 264 | 2012 | 8
-018 | Metode Penelitian Teknik Informatika | Ade Johar Maturidi | Deepublish | 135 | 2017 | 6
-019 | Dasar-dasar Teknik Informatika | Novega Pratama | Deepublish | 117 | 2020 | 12
-020 | Ensiklopedia Komputer dan Teknologi Informasi | Bimo Sunarfri | PT Skripta Media Creative | 342 | 2017 | 12
-021 | Kepemimpinan Perempuan | Fatri Hayani | IPB Press | 111 | 2023 | 7 
-022 | Leadership Coaching | Susy Setiawati | MNC Publishing | 406 | 2017 | 4
-023 | Program Linier dan Aplikasinya | Darta, S.Pd., M.Pd. | PT Refika Aditama | 314 | 2019 | 11
-024 | Mencetak Generasi Cerdas Berkualitas | Wahjudi Djaja, S.S. | Cempaka Putih PT | 222 | 2017 | 10
-025 | Hukum Fintech Lending | Prof. Dr. H. Saifullahm S.H. | PT Buku Kompas | 569 | 2023 | 2
-026 | Konstitusi Ekonomi | Prof. Dr. Jimly Asshiddiqie, S.H. | Penerbit Buku Kompas | 145 | 2016 | 7
-027 | Apresiasi Prosa | Uti Darmawati | Intan Pariwara PT | 142 | 2014 | 8
-028 | Sosiolinguistik | Dr. Mansoer Pateda | Angkasa CV | 240 | 2015 | 28
-029 | Kamus Korea Indonesia | Tim Kesaint Blanc | Kesaint Blanc | 681 | 2014 | 14
-030 | Poetry | M.G Sriningsih | MNC Publishing | 75 | 2017 | 9
-031 | Rumah Pohon | Ariany Syurfah | Penebar Swadaya | 416 | 2012 | 10
-032 | Ikhtisar Ilmu Saraf | M. Zulfy Abdul Malik Al-galushi | Unpad Press | 166 | 2023 | 9
-033 | Pakeman Basa Sunda | Yayat Sudaryat | Dunia Pustaka Jaya PT | 457 | 2016 | 8
-034 | Menyimak | Henry Guntur Tarigan | Angkasa CV | 407 | 2008 | 58
-035 | Complete Italian Volume 3 | Lydia Vellacio | Kesaint Blanc | 286 | 2013 | 10
-036 | Teori Bipa | Defina | IPB Press | 460 | 2020 | 9
-037 | Si Bontot yang Manja | Mujiatun | Alprin Finishing | 99 | 2019 | 13 
-038 | Kawruh Sapala Jawa | Setya Amrih Prasaja Group | PT Tangga Pustaka | 102 | 2015 | 20
-039 | Gerabah yang Cantik | Suliswinarni | Alprin Finishing | 210 | 2019 | 10
-040 | Persahabatan Ucok dan Made | Asrori | Alprin Finishing | 53 | 2019 | 5
-041 | YOU DO YOU Discovering Life throught Experiments & Self-Awerness | Fellexandro Ruby | PT Gramedia Pustaka Utama | 254 | 2020 | 10
-042 | Thinking, Fast and Slow | Daniel Kahneman | PT Gramedia Pustaka Indonesia | 652 | 2013 | 3
-043 | The Sun and Her Flowers | Rupi Kaur | Andrews McMeel | 243 | 2017 | 5
-044 | The School for Good and Evil | Soman Chainani | HarperCollins Publishers | 582 | 2013 | 4
-045 | The Power of Negative Word | Edi Susanto | Metagraf | 272 | 2018 | 3
-046 | The Life Changing Magic of Tyding Up | Marie Kondo | Sunmark Publishing | 222 | 2011 | 2
-047 | The Last Law of Attraction Book You’ll Ever Need to Read | Andraw Kap | Awesome Marvelous I 2019 | 4
-048 |The Chimp Paradox | Prof. Steve Peters | PT Gramedia Pustaka Indonesia | 400 | 2019 | 1
-049 |Educated | Tara Westover | PT Gramedia Pustaka Indonesia|512|2018|5
-050 | Self Healing With Quran | Ummu Kalsum Iqt | Syalmahat Publishing | 186 | 2022 | 7
-051 |It’s Okay, You’re Just Different | Kim Doo Eung | PT Gramedia Puataka Indonesia | 246 | 2018 | 3
-052 |Seni Berbicara(Revisi) | Larry King & Bill Gilbert | PT Gramedia Pustaka Indonesia | 285 | 2019 | 4
-053 | SECRET OF DEVINE LOVE a Spiritual Journey into the Heart of Islam | A. Helwa | Naulit Publishing House | 370 | 2020 | 4
-054 | PSIKOLOGI KOMUNIKASI Suatu Pengantar dan Perspektif Islam | Rila Setyaningsih | UNIDA Gontor Press | 245 | 2019 | 6
-055 | PSIKOLOGI ISLAM: Kajian Teoritik dan Penelitian Empirik| Tim Asosiasi Psikologi Islam| Istana Publishing | 570 | 2020 | 3
+0001 | Medan Elektromagnetik | Dr. Jaja Kustija Aditama | PT Refika Aditama | 200 | 2022 | 13
+0002 | Analisis Jalur | Dr.  H. Juanim, S.E., M.Si. | Relasi Inti Media Group  | 250 | 2020 | 20
+0003 | Cybersecurity | Dr. Tasya Safiranita Ramli, S.H., M.H. | Alprin Finishing | 310 | 2023 | 8
+0004 | Pengolahan Sinyal Diital | Dr. Ir. Suwandi, M.T | Raih Asa Sukses| 2020 | 16
+0005 | Hukum Perdata Indonesia | Dr. Bambang Daru Nugroho, S.H., M.H | Puspa Swara | 388 | 2017 | 7
+0006 | Cerita Inspiratif | Y.Budi Artati | Aksarra Sinergi Media PT | 230 | 2018 | 8
+0007 | Teknik Membaca | Nurhadi | Bumi Aksara | 217 | 2016 | 9
+0008 | Rangkuman Pengetahuan Umum Lengkap | Sugeng HR | Aneka Ilmu | 328 | 2014 | 12
+0009 | All New Mega Bank Soal Kimia SMA | Imam Himawan | Tim Guru Eduka | 442 | 2016 | 11
+0010 | Sosiologi Bingual SMA | M. Taupan | Yrama Widya | 248 | 2008 | 9
+0011 | Emotional Spiritual Quotient Jilid 1 | Ary Ginanjar | PT Arga Gilanta | 401 | 2001 | 6
+0012 | Budgeting Edisi 1 | Drs. M. Munandar | BPFE | 349 | 2000 | 8
+0013 | Pengantar Manajemen | Ernie Tisnawati |Prenada Media | 426 | 2005 | 7
+0014 | Pengantar Teknologi Informasi | Buhori Muslim | Deepublish | 392 | 2017 | 11
+0015 | Komputer Cerdas Untuk Teknik Informatika | Nur Nafiiyah | Deepublish | 243 | 2017 | 13
+0016 | Aplikasi Komputer | Dwi Krisbiantoro | Deepublish | 167 | 2018 | 7
+0017 | Algoritma Pemrograman | Rinaldi Munir | ENF Cinematika | 264 | 2012 | 8
+0018 | Metode Penelitian Teknik Informatika | Ade Johar Maturidi | Deepublish | 135 | 2017 | 6
+0019 | Dasar-dasar Teknik Informatika | Novega Pratama | Deepublish | 117 | 2020 | 12
+0020 | Ensiklopedia Komputer dan Teknologi Informasi | Bimo Sunarfri | PT Skripta Media Creative | 342 | 2017 | 12
+0021 | Kepemimpinan Perempuan | Fatri Hayani | IPB Press | 111 | 2023 | 7 
+0022 | Leadership Coaching | Susy Setiawati | MNC Publishing | 406 | 2017 | 4
+0023 | Program Linier dan Aplikasinya | Darta, S.Pd., M.Pd. | PT Refika Aditama | 314 | 2019 | 11
+0024 | Mencetak Generasi Cerdas Berkualitas | Wahjudi Djaja, S.S. | Cempaka Putih PT | 222 | 2017 | 10
+0025 | Hukum Fintech Lending | Prof. Dr. H. Saifullahm S.H. | PT Buku Kompas | 569 | 2023 | 2
+0026 | Konstitusi Ekonomi | Prof. Dr. Jimly Asshiddiqie, S.H. | Penerbit Buku Kompas | 145 | 2016 | 7
+0027 | Apresiasi Prosa | Uti Darmawati | Intan Pariwara PT | 142 | 2014 | 8
+0028 | Sosiolinguistik | Dr. Mansoer Pateda | Angkasa CV | 240 | 2015 | 28
+0029 | Kamus Korea Indonesia | Tim Kesaint Blanc | Kesaint Blanc | 681 | 2014 | 14
+0030 | Poetry | M.G Sriningsih | MNC Publishing | 75 | 2017 | 9
+0031 | Rumah Pohon | Ariany Syurfah | Penebar Swadaya | 416 | 2012 | 10
+0032 | Ikhtisar Ilmu Saraf | M. Zulfy Abdul Malik Al-galushi | Unpad Press | 166 | 2023 | 9
+0033 | Pakeman Basa Sunda | Yayat Sudaryat | Dunia Pustaka Jaya PT | 457 | 2016 | 8
+0034 | Menyimak | Henry Guntur Tarigan | Angkasa CV | 407 | 2008 | 58
+0035 | Complete Italian Volume 3 | Lydia Vellacio | Kesaint Blanc | 286 | 2013 | 10
+0036 | Teori Bipa | Defina | IPB Press | 460 | 2020 | 9
+0037 | Si Bontot yang Manja | Mujiatun | Alprin Finishing | 99 | 2019 | 13 
+0038 | Kawruh Sapala Jawa | Setya Amrih Prasaja Group | PT Tangga Pustaka | 102 | 2015 | 20
+0039 | Gerabah yang Cantik | Suliswinarni | Alprin Finishing | 210 | 2019 | 10
+0040 | Persahabatan Ucok dan Made | Asrori | Alprin Finishing | 53 | 2019 | 5
+0041 | YOU DO YOU Discovering Life throught Experiments & Self-Awerness | Fellexandro Ruby | PT Gramedia Pustaka Utama | 254 | 2020 | 10
+0042 | Thinking, Fast and Slow | Daniel Kahneman | PT Gramedia Pustaka Indonesia | 652 | 2013 | 3
+0043 | The Sun and Her Flowers | Rupi Kaur | Andrews McMeel | 243 | 2017 | 5
+0044 | The School for Good and Evil | Soman Chainani | HarperCollins Publishers | 582 | 2013 | 4
+0045 | The Power of Negative Word | Edi Susanto | Metagraf | 272 | 2018 | 3
+0046 | The Life Changing Magic of Tyding Up | Marie Kondo | Sunmark Publishing | 222 | 2011 | 2
+0047 | The Last Law of Attraction Book You’ll Ever Need to Read | Andraw Kap | Awesome Marvelous I 2019 | 4
+0048 | The Chimp Paradox | Prof. Steve Peters | PT Gramedia Pustaka Indonesia | 400 | 2019 | 1
+0049 | Educated | Tara Westover | PT Gramedia Pustaka Indonesia|512|2018|5
+0050 | Self Healing With Quran | Ummu Kalsum Iqt | Syalmahat Publishing | 186 | 2022 | 7
+0051 | It’s Okay, You’re Just Different | Kim Doo Eung | PT Gramedia Puataka Indonesia | 246 | 2018 | 3
+0052 | Seni Berbicara(Revisi) | Larry King & Bill Gilbert | PT Gramedia Pustaka Indonesia | 285 | 2019 | 4
+0053 | SECRET OF DEVINE LOVE a Spiritual Journey into the Heart of Islam | A. Helwa | Naulit Publishing House | 370 | 2020 | 4
+0054 | PSIKOLOGI KOMUNIKASI Suatu Pengantar dan Perspektif Islam | Rila Setyaningsih | UNIDA Gontor Press | 245 | 2019 | 6
+0055 | PSIKOLOGI ISLAM: Kajian Teoritik dan Penelitian Empirik| Tim Asosiasi Psikologi Islam| Istana Publishing | 570 | 2020 | 3
+0056 | Bumi | Tere Liye | Gramedia Pustaka Utama | 440 | 2014 | 11
+0057 | Bulan | Tere Liye | Gramedia Pustaka Utama | 441 | 2015 | 6
+0058 | Matahari | Tere Liye | Gramedia Pustaka Utama | 390 | 2016 | 18
+0059 | Bintang | Tere Liye | Gramedia Pustaka Utama | 392 | 2017 | 3
+0060 | Ceros dan Batozar | Tere Liye | Gramedia Pustaka Utama | 376 | 2018 | 16
+0061 | Komet | Tere Liye | Gramedia Pustaka Utama | 384 | 2018 | 11
+0062 | Komet Minor | Tere Liye | Gramedia Pustaka Utama| 376 | 2019 | 2
+0063 | Selena | Tere Liye | Gramedia Pustaka Utama| 368 | 2020 | 14
+0064 | Nebula | Tere Liye | Gramedia Pustaka Utama | 368 | 2020 | 4
+0065 | Si Putih | Tere Liye | Gramedia Pustaka Utama | 380 | 2021 | 5
+0066 | Lumpu | Tere Liye | Gramedia Pustaka Utama | 384 | 2021 | 12
+0067 | Bibi Gill | Tere Liye | Gramedia Pustaka Utama | 365 | 2022 | 10
+0068 | SagaraS | Tere Liye | Gramedia Pustaka Utama | 348 | 2022 | 9
+0069 | Matahari Minor | Tere Liye | Gramedia Pustaka Utama | 372 | 2022 | 9
+0070 | Ily | Tere Liye | Gramedia Pustaka Utama | 378 | 2023 | 8
+0071 |
+0072 |
+0073 |
+0074 |
+0075 |
+0076 |
+0078 |
+0079 |
+0080 |
+0081 |
+0082 |
+0083 |
+0084 |
+0085 |
+0086 |
+0087 |
+0088 |
+0089 |
+0090 |
+0091 |
+0092 |
+0093 |
+0094 |
+0095 |
+0096 |
+0097 |
+0098 |
+0099 |
+0100 |
