@@ -79,7 +79,7 @@
 0079 | Supernova: Komet | Dewi Lestari | Gramedia Pustaka Utama | 480 | 2011 | 7
 0080 | Laskar Pelangi: Setakar Pelangi di Mimpi-mimpi Anak-anak Belitung | Andrea Hirata | Gramedia Pustaka Utama | 480 | 2018 | 15
 0081 | Ketika Duniamu Berakhir | Andrea Hirata | Gramedia Pustaka Utama | 400 | 2021 |	5
-0082 | Orang-orang Biasa |	Andrea Hirata |	Gramedia Pustaka Utama | 352 | 2022 |	4
-0083 | Cinta di Dalam Tas |	Andrea Hirata |	Gramedia Pustaka Utama | 320 | 2023 |	3
-0084 | Padang Bulan |	Andrea Hirata |	Gramedia Pustaka Utama | 448 | 2015 | 6
+0082 | Orang-orang Biasa | Andrea Hirata | Gramedia Pustaka Utama | 352 | 2022 | 4
+0083 | Cinta di Dalam Tas | Andrea Hirata | Gramedia Pustaka Utama | 320 | 2023 | 3
+0084 | Padang Bulan | Andrea Hirata | Gramedia Pustaka Utama | 448 | 2015 | 6
 0085 | Manuskrip Hilang | Andrea Hirata | Gramedia Pustaka Utama | 384 | 2017 | 8
