@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdbool.h>
+#include "header.h"
 
 char Login ( ) {
     char pass [ ] = {"password"}; //untuk password nya , ketika login kata "password" ini yg menentukan berhasil atau gagal
