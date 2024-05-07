@@ -49,7 +49,7 @@ int jumlahBukuDipinjam = 0;
 
 // Fungsi untuk menyimpan data buku ke dalam file
 void tulisData() {
-    FILE *file = fopen("books.txt", "w");
+    FILE *file = fopen("books.txt", "a");
     if (file == NULL) {
         printf("File tidak dapat dibuka.\n");
         return;
