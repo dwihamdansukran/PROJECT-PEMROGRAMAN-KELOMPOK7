@@ -1,8 +1,8 @@
-#include "header.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-//Struktur untuk menyimpan informasi tentang buku
-typedef struct 
-{
+typedef struct {
     unsigned int id;
     char judul[100];
     char penulis[50];
@@ -10,10 +10,54 @@ typedef struct
     unsigned int jumlah_halaman;
     unsigned int tahun_terbit;
     unsigned int jumlah_tersedia;
-}Buku;
+} Buku;
 
+void tambahkan_buku(Buku daftar_buku[], int *jumlah_buku);
+void hapus_buku(Buku daftar_buku[], int *jumlah_buku);
+void edit_buku(Buku daftar_buku[], int jumlah_buku);
+void simpan_ke_file(Buku daftar_buku[], int jumlah_buku);
+void baca_dari_file(Buku daftar_buku[], int *jumlah_buku);
 
-// Fungsi untuk menambahkan buku baru
+int main() {
+    Buku daftar_buku[100];
+    int jumlah_buku = 0;
+    int pilihan;
+
+    // Membaca data dari file teks saat program dimulai
+    baca_dari_file(daftar_buku, &jumlah_buku);
+
+    do {
+        printf("\nMenu admin :\n");
+        printf("1. Tambah Buku \n");
+        printf("2. Hapus Buku\n");
+        printf("3. Edit Buku\n");
+        printf("4. Simpan & Keluar\n");
+        printf("");
+        scanf("%d", &pilihan);
+
+        switch (pilihan) {
+            case 1:
+                tambahkan_buku(daftar_buku, &jumlah_buku);
+                break;
+            case 2:
+                hapus_buku(daftar_buku, &jumlah_buku);
+                break;
+            case 3:
+                edit_buku(daftar_buku, jumlah_buku);
+                break;
+            case 4:
+                // Simpan data ke dalam file sebelum keluar
+                simpan_ke_file(daftar_buku, jumlah_buku);
+                printf("Terima Kasih.\n");
+                break;
+            default :
+                printf("Pilihan tidak valid.\n");
+        }
+    } while (pilihan != 4);
+
+    return 0;
+}
+
 void tambahkan_buku(Buku daftar_buku[], int *jumlah_buku) {
     printf("Masukkan ID buku: ");
     scanf("%u", &daftar_buku[*jumlah_buku].id);
@@ -34,13 +78,11 @@ void tambahkan_buku(Buku daftar_buku[], int *jumlah_buku) {
     printf("Buku berhasil ditambahkan!\n");
 }
 
-// Fungsi untuk menghapus buku
 void hapus_buku(Buku daftar_buku[], int *jumlah_buku) {
     unsigned int id_hapus;
     printf("Masukkan ID buku yang ingin dihapus: ");
     scanf("%u", &id_hapus);
 
-    // Cari buku berdasarkan ID
     int index = -1;
     for (int i = 0; i < *jumlah_buku; i++) {
         if (daftar_buku[i].id == id_hapus) {
@@ -50,7 +92,6 @@ void hapus_buku(Buku daftar_buku[], int *jumlah_buku) {
     }
 
     if (index != -1) {
-        // Geser semua elemen setelah buku yang dihapus
         for (int i = index; i < *jumlah_buku - 1; i++) {
             daftar_buku[i] = daftar_buku[i + 1];
         }
@@ -61,13 +102,11 @@ void hapus_buku(Buku daftar_buku[], int *jumlah_buku) {
     }
 }
 
-// Fungsi untuk mengedit informasi buku
 void edit_buku(Buku daftar_buku[], int jumlah_buku) {
     unsigned int id_edit;
     printf("Masukkan ID buku yang ingin diedit: ");
     scanf("%u", &id_edit);
 
-    // Cari buku berdasarkan ID
     int index = -1;
     for (int i = 0; i < jumlah_buku; i++) {
         if (daftar_buku[i].id == id_edit) {
@@ -96,39 +135,47 @@ void edit_buku(Buku daftar_buku[], int jumlah_buku) {
     }
 }
 
-int main() {
-    Buku daftar_buku[100]; //deklasari variabel
-    int jumlah_buku = 0;
-    int pilihan;
+void simpan_ke_file(Buku daftar_buku[], int jumlah_buku) {
+    FILE *file = fopen("daftar_buku.txt", "w");
+    if (file == NULL) {
+        printf("Gagal membuka file.\n");
+        return;
+    }
 
-    do {
-        //Tampilan menu admin 
-        printf("\nMenu admin :\n");
-        printf("1. Tambah Buku \n");
-        printf("2. Hapus Buku\n");
-        printf("3. Edit Buku\n");
-        printf("4. Keluar\n");
-        scanf("%d", &pilihan);
+    for (int i = 0; i < jumlah_buku; i++) {
+        fprintf(file, "%u;%s;%s;%s;%u;%u;%u\n", 
+                daftar_buku[i].id,
+                daftar_buku[i].judul,
+                daftar_buku[i].penulis,
+                daftar_buku[i].penerbit,
+                daftar_buku[i].jumlah_halaman,
+                daftar_buku[i].tahun_terbit,
+                daftar_buku[i].jumlah_tersedia);
+    }
 
-        //proses pilihan admin
-        switch (pilihan) {
-         case 1:
-            tambahkan_buku(daftar_buku, &jumlah_buku);
-            break;
-        case 2:
-            hapus_buku(daftar_buku, &jumlah_buku);
-            break;
-        case 3: 
-            edit_buku(daftar_buku, jumlah_buku);
-            break;
-        case 4:
-            printf("Terima Kasih.\n");
-            break;
-        default :
-            printf("Pilihan tidak valid.\n");
-        }   
+    fclose(file);
+    printf("Data buku berhasil disimpan ke dalam file.\n");
+}
 
-     }  while (pilihan != 4); 
+void baca_dari_file(Buku daftar_buku[], int *jumlah_buku) {
+    FILE *file = fopen("daftar_buku.txt", "r");
+    if (file == NULL) {
+        printf("Gagal membuka file.\n");
+        return;
+    }
 
-     return 0;
+    // Loop untuk membaca setiap baris dari file
+    while (fscanf(file, "%u;%[^;];%[^;];%[^;];%u;%u;%u\n",
+                  &daftar_buku[*jumlah_buku].id,
+                  daftar_buku[*jumlah_buku].judul,
+                  daftar_buku[*jumlah_buku].penulis,
+                  daftar_buku[*jumlah_buku].penerbit,
+                  &daftar_buku[*jumlah_buku].jumlah_halaman,
+                  &daftar_buku[*jumlah_buku].tahun_terbit,
+                  &daftar_buku[*jumlah_buku].jumlah_tersedia) == 7) {
+        (*jumlah_buku)++; // Menambah jumlah_buku setiap kali sebuah buku dibaca
+    }
+
+    fclose(file);
+    printf("Data buku berhasil dimuat dari file.\n");
 }
