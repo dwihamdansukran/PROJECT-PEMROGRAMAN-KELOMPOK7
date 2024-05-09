@@ -1,5 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "header.h"
-
 
 // Struktur untuk buku
 typedef struct {
@@ -12,51 +14,20 @@ typedef struct {
     int jumlahBuku;
 } Buku;
 
-// Struktur untuk buku yang dipinjam
-typedef struct {
-    char judul[255];
-    char penulis[100];
-    int tahunTerbit;
-    int jumlahBuku;
-    int status;
-} BukuDipinjam;
-
-// Variabel untuk menyimpan data
-Buku buku[255];
-BukuDipinjam bukuDipinjam[255];
-int jumlahAkun = 0;
-int jumlahBuku = 0;
-int jumlahBukuDipinjam = 0;
-
-// Fungsi untuk melihat buku
+// Fungsi untuk melihat buku yang tersedia
 void lihatBuku() {
-    printf("Daftar buku:\n");
-    for (int i = 0; i < jumlahBuku; i++) {
-        printf("%s - %s - %d - %d\n", buku[i].judul, buku[i].penulis, buku[i].tahunTerbit, buku[i].jumlahBuku);
-    }
-}
-
-// Mendefinisikan array buku dan jumlah buku
-Buku buku[255];
-int jumlahBuku = 0;
-
-// Mendefinisikan array buku yang sedang dipinjam dan jumlah buku yang dipinjam
-BukuDipinjam bukuDipinjam[100];
-int jumlahBukuDipinjam = 0;
-
-// Fungsi untuk menyimpan data buku ke dalam file
-void tulisData() {
-    FILE *file = fopen("books.txt", "a");
+    FILE *file = fopen("books.txt", "r");
     if (file == NULL) {
         printf("File tidak dapat dibuka.\n");
         return;
     }
-
-    fprintf(file, "%d\n", jumlahBuku);
-    for (int i = 0; i < jumlahBuku; i++) {
-        fprintf(file, "%s %s %d %d\n", buku[i].judul, buku[i].penulis, buku[i].tahunTerbit, buku[i].jumlahBuku);
+    
+    printf("Buku yang tersedia:\n");
+    printf("====================\n");
+    char line[255];
+    while (fgets(line, sizeof(line), file) != NULL) {
+        printf("%s", line);
     }
-
     fclose(file);
 }
 
@@ -66,34 +37,77 @@ void pinjamBuku() {
     printf("Masukkan judul buku yang ingin dipinjam: ");
     fgets(judul, sizeof(judul), stdin);
     judul[strcspn(judul, "\n")] = '\0'; 
-    for (int i = 0; i < jumlahBuku; i++) {
-        if (strcmp(buku[i].judul, judul) == 0) {
-            if (buku[i].jumlahBuku > 0) {
-                strcpy(bukuDipinjam[jumlahBukuDipinjam].judul, buku[i].judul);
-                strcpy(bukuDipinjam[jumlahBukuDipinjam].penulis, buku[i].penulis);
-                bukuDipinjam[jumlahBukuDipinjam].tahunTerbit = buku[i].tahunTerbit;
-                bukuDipinjam[jumlahBukuDipinjam].jumlahBuku = buku[i].jumlahBuku;
-                bukuDipinjam[jumlahBukuDipinjam].status = 1;
-                jumlahBukuDipinjam++;
-                buku[i].jumlahBuku--;
-                tulisData();
-                return;
+
+    FILE *file = fopen("books.txt", "r");
+    if (file == NULL) {
+        printf("File tidak dapat dibuka.\n");
+        return;
+    }
+
+    FILE *tempFile = fopen("temp.txt", "w");
+    if (tempFile == NULL) {
+        printf("File tidak dapat dibuka.\n");
+        fclose(file);
+        return;
+    }
+
+    int found = 0;
+    char line[255];
+    while (fgets(line, sizeof(line), file) != NULL) {
+        char *judulBuku = strtok(line, ",");
+        if (strcmp(judulBuku, judul) == 0) {
+            found = 1;
+            int jumlahBuku;
+            sscanf(strtok(NULL, ","), "%d", &jumlahBuku);
+            if (jumlahBuku > 0) {
+                jumlahBuku--;
+                fprintf(tempFile, "%s,%d\n", judulBuku, jumlahBuku);
+                printf("Buku '%s' berhasil dipinjam.\n", judul);
+
+                // Tambahkan buku yang dipinjam ke file borrowed_books.txt
+                FILE *borrowedFile = fopen("borrowed_books.txt", "a");
+                if (borrowedFile == NULL) {
+                    printf("File borrowed_books.txt tidak dapat dibuka.\n");
+                    fclose(file);
+                    fclose(tempFile);
+                    return;
+                }
+                fprintf(borrowedFile, "%s\n", judul);
+                fclose(borrowedFile);
             } else {
                 printf("Buku tidak tersedia.\n");
-                return;
             }
+        } else {
+            fprintf(tempFile, "%s", line);
         }
     }
-    printf("Buku tidak ditemukan.\n");
-}
 
+    fclose(file);
+    fclose(tempFile);
+
+    remove("books.txt");
+    rename("temp.txt", "books.txt");
+
+    if (!found) {
+        printf("Buku tidak ditemukan.\n");
+    }
+}
 
 // Fungsi untuk melihat buku yang dipinjam
 void lihatBukuDipinjam() {
-    printf("Daftar buku yang dipinjam:\n");
-    for (int i = 0; i < jumlahBukuDipinjam; i++) {
-        printf("%s - %s - %d - %d - %d\n", bukuDipinjam[i].judul, bukuDipinjam[i].penulis, bukuDipinjam[i].tahunTerbit, bukuDipinjam[i].jumlahBuku, bukuDipinjam[i].status);
+    FILE *file = fopen("borrowed_books.txt", "r");
+    if (file == NULL) {
+        printf("File tidak dapat dibuka.\n");
+        return;
     }
+    
+    printf("Buku yang dipinjam:\n");
+    printf("====================\n");
+    char line[255];
+    while (fgets(line, sizeof(line), file) != NULL) {
+        printf("%s", line);
+    }
+    fclose(file);
 }
 
 // Fungsi untuk mengembalikan buku
@@ -102,27 +116,61 @@ void kembaliBuku() {
     printf("Masukkan judul buku yang ingin dikembalikan: ");
     fgets(judul, sizeof(judul), stdin);
     judul[strcspn(judul, "\n")] = '\0';
-    for (int i = 0; i < jumlahBukuDipinjam; i++) {
-        if (strcmp(bukuDipinjam[i].judul, judul) == 0) {
-            bukuDipinjam[i].status = 0;
-            bukuDipinjam[i].jumlahBuku++;
-            tulisData();
-            return;
+    
+    FILE *file = fopen("books.txt", "r+");
+    if (file == NULL) {
+        printf("File tidak dapat dibuka.\n");
+        return;
+    }
+    
+    FILE *tempFile = fopen("temp.txt", "w");
+    if (tempFile == NULL) {
+        printf("File tidak dapat dibuka.\n");
+        fclose(file);
+        return;
+    }
+    
+    int found = 0;
+    char line[255];
+    while (fgets(line, sizeof(line), file) != NULL) {
+        char *judulBuku = strtok(line, ",");
+        if (strcmp(judulBuku, judul) == 0) {
+            found = 1;
+            int jumlahBuku;
+            sscanf(strtok(NULL, ","), "%d", &jumlahBuku);
+            jumlahBuku++;
+            fprintf(tempFile, "%s,%d\n", judulBuku, jumlahBuku);
+            printf("Buku '%s' berhasil dikembalikan.\n", judul);
+        } else {
+            fprintf(tempFile, "%s", line);
         }
     }
-    printf("Buku tidak ditemukan.\n");
-} 
+    
+    fclose(file);
+    fclose(tempFile);
+    
+    remove("books.txt");
+    rename("temp.txt", "books.txt");
+    
+    if (!found) {
+        printf("Buku tidak ditemukan.\n");
+    }
+}
 
-// Fungsi untuk menu user
-void userMenu() {
+int main (){
     int pilihan;
     printf("Menu User:\n");
     printf("1. Lihat buku\n");
     printf("2. Pinjam buku\n");
     printf("3. Lihat buku yang dipinjam\n");
-    printf("4. Kembali ke menu utama\n");
+    printf("4. Kembalikan buku\n");
+    printf("5. Keluar\n");
     printf("Pilih opsi: ");
-    scanf("%d", &pilihan);
+    
+    char buffer[100];
+    fgets(buffer, sizeof(buffer), stdin);
+    sscanf(buffer, "%d", &pilihan);
+    
     switch (pilihan) {
         case 1:
             lihatBuku();
@@ -134,10 +182,14 @@ void userMenu() {
             lihatBukuDipinjam();
             break;
         case 4:
-            login();
+            kembaliBuku();
+            break;
+        case 5:
+            printf("Keluar dari program.\n");
             break;
         default:
             printf("Opsi tidak valid.\n");
-            userMenu();
     }
+    
+    return 0;
 }
