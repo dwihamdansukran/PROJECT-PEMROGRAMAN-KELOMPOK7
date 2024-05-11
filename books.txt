@@ -82,19 +82,19 @@
 0082, Orang-orang Biasa, Andrea Hirata, Gramedia Pustaka Utama, 352, 2022, 4
 0083, Cinta di Dalam Tas, Andrea Hirata, Gramedia Pustaka Utama, 320, 2023, 3
 0084, Padang Bulan, Andrea Hirata, Gramedia Pustaka Utama, 448, 2015, 6
-0085, Manuskrip Hilang, Andrea Hirata, Gramedia Pustaka Utama, 384, 2017, 8
-0086, Laskar Pelangi, Andrea Hirata, Gramedia Pustaka Utama, 384, 2005, 8
+0085, Manuskrip Hilang, Andrea Hirata, Gramedia Pustaka Utama, 384, 2017, 6
+0086, Laskar Pelangi, Andrea Hirata, Gramedia Pustaka Utama, 384, 2005, 6
 0087, Sang Pemimpi, Andrea Hirata, Gramedia Pustaka Utama, 432, 2009, 8
-0088, Mary Rose, Andrea Hirata, Gramedia Pustaka Utama, 448, 2011, 8
+0088, Mary Rose, Andrea Hirata, Gramedia Pustaka Utama, 448, 2011, 6
 0089, Padang Bulan, Andrea Hirata, Gramedia Pustaka Utama, 400, 2013, 8
-0090, Ayah, Andrea Hirata, Gramedia Pustaka Utama, 352, 2015, 8
-0091, Orang-Orang Biasa, Andrea Hirata, Gramedia Pustaka Utama, 560, 2018, 8
-0092, Cinta di Dalam Kotak, Adila Suwarno, Gramedia Pustaka Utama, 352, 2021, 8
+0090, Ayah, Andrea Hirata, Gramedia Pustaka Utama, 352, 2015, 2
+0091, Orang-Orang Biasa, Andrea Hirata, Gramedia Pustaka Utama, 560, 2018, 5
+0092, Cinta di Dalam Kotak, Adila Suwarno, Gramedia Pustaka Utama, 352, 2021, 5
 0093, Filosofi Kopi: Kumpulan Cerpen, Dewi Lestari, Gramedia Pustaka Utama, 256, 2006, 8
-0094, Supernova, Dee, Gramedia Pustaka Utama, 336, 2009, 8
-0095, Negeri 5 Menara, Ahmad Fuadi, Gramedia Pustaka Utama, 448, 2009, 8
+0094, Supernova, Dee, Gramedia Pustaka Utama, 336, 2009, 3
+0095, Negeri 5 Menara, Ahmad Fuadi, Gramedia Pustaka Utama, 448, 2009, 9
 0096, Laskar Pelangi Seasion 2, Andrea Hirata, Gramedia Pustaka Utama, 512, 2022, 8
 0097, Perahu Kertas, Dewi Lestari, Gramedia Pustaka Utama, 432, 2011, 8
-0098, Hafalan Shalat Delapan Wajah, Andrea Hirata, Gramedia Pustaka Utama, 352, 2020, 8
-0099, Orang-Orang Biasa: Kisah Para Pejuang Kehidupan, Andrea Hirata, Gramedia Pustaka Utama, 320, 2018, 8
-0100, Di Bawah Langit Biru, Andrea Hirata, Gramedia Pustaka Utama, 400, 2021, 8
+0098, Hafalan Shalat Delapan Wajah, Andrea Hirata, Gramedia Pustaka Utama, 352, 2020, 6
+0099, Orang-Orang Biasa: Kisah Para Pejuang Kehidupan, Andrea Hirata, Gramedia Pustaka Utama, 320, 2018, 7
+0100, Di Bawah Langit Biru, Andrea Hirata, Gramedia Pustaka Utama, 400, 2021, 4
