@@ -2,13 +2,13 @@
 
 // Struktur untuk buku
 typedef struct {
-    int IdBuku;
-    char judul[255];
-    char penulis[100];
-    char penerbit[255];
-    int jmlHal;
-    int tahunTerbit;
-    int jumlahBuku;
+    unsigned int id;
+    char judul[100];
+    char penulis[50];
+    char penerbit[50];
+    unsigned int jumlah_halaman;
+    unsigned int tahun_terbit;
+    unsigned int jumlah_tersedia;
 } Buku;
 
 // Fungsi untuk melihat buku yang tersedia
@@ -108,7 +108,7 @@ void lihatBukuDipinjam() {
 }
 
 // Fungsi untuk mengembalikan buku
-void kembaliBuku() {
+void kembalikanBuku() {
     char judul[255];
     printf("Masukkan judul buku yang ingin dikembalikan: ");
     fgets(judul, sizeof(judul), stdin);
@@ -179,7 +179,7 @@ int main (){
             lihatBukuDipinjam();
             break;
         case 4:
-            kembaliBuku();
+            kembalikanBuku();
             break;
         case 5:
             printf("Keluar dari program.\n");
