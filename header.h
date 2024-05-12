@@ -23,16 +23,6 @@ void baca_dari_file(Buku daftar_buku[], int *jumlah_buku);
 #define LIBRARY_H
 
 typedef struct {
-    unsigned int book_id;
-    char title[100];
-    char author[50];
-    char publisher[50];
-    unsigned int pages;
-    unsigned int year;
-    unsigned int available_qty;
-} Book;
-
-typedef struct {
     char username[20];
     char password[20];
     int is_admin;
