@@ -1,16 +1,5 @@
 #include "header.h"
 
-// Struktur untuk buku
-typedef struct {
-    unsigned int id;
-    char judul[100];
-    char penulis[50];
-    char penerbit[50];
-    unsigned int jumlah_halaman;
-    unsigned int tahun_terbit;
-    unsigned int jumlah_tersedia;
-} Buku;
-
 // Fungsi untuk melihat buku yang tersedia
 void lihatBuku() {
     FILE *file = fopen("books.txt", "r");
