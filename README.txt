@@ -21,35 +21,38 @@ file user.c
 	serta bisa untuk mengembalikan buku yang sudah di pinjam. dan juga pengguna ingin keluar dari sistem
 	tersebut. Di dalam file ini pertama ada cara untuk melihat buku yang tersedia (di dalam file books.txt),
 	kedua ada fungsi untuk meminjam buku, dimana pengguna akan memasukkan judul buku yang ingin dipinjam,
-	lalu akan diperiksa apakah buku tersebut ada atau tidak ada, kalau ada maka buku tersebut akan ditambahkan
-	ke dalam file borrowed_books.txt. ketiga ada fungsi untuk melihat buku yang dipinjam di file borrowed_books.txt.
-	keempat ada fungsi untuk mengembalikan buku, dimana pengguna akan memasukkan judul buku yang akan dikembalikan.
-	maka buku yang sudah dikembalikan akan dihapus di file borrowed_books.txt dan akan ditambah lagi ke file books.txt.
-	kemudian yang keenam ada fungsi main yang digunakan oleh pengguna untuk memilih apa pun yang ingin mereka lakukan,
-	misalya seperti memilih untuk melihat buku, meminjam buku, melihat buku yang ingin dipinjam, mengembalikan buku,
-	serta keluar dari sistem tersebut.
+	lalu akan diperiksa apakah buku tersebut ada atau tidak ada, kalau ada maka buku tersebut akan 
+	ditambahkan ke dalam file borrowed_books.txt. ketiga ada fungsi untuk melihat buku yang dipinjam 
+	di file borrowed_books.txt. keempat ada fungsi untuk mengembalikan buku, dimana pengguna akan memasukkan
+	judul buku yang akan dikembalikan.maka buku yang sudah dikembalikan akan dihapus di file borrowed_books.
+	txt dan akan ditambah lagi ke file books.txt.kemudian yang keenam ada fungsi main yang digunakan oleh
+	pengguna untuk memilih apa pun yang ingin mereka lakukan, misalya seperti memilih untuk melihat buku, 
+	meminjam buku, melihat buku yang ingin dipinjam, mengembalikan buku, serta keluar dari sistem tersebut.
 
 file main.c 
-	Di dalam file ini digunakan sebagai program utama yang memungkinkan admin untuk login dan mengelola daftar buku,
-	serta memungkinkan pengguna atau user untuk login dan melakukan operasi terkait buku sesuai yang ingin di akses.
-	Di dalam file ini berisi 3 blok kode program yang bertugas menangani berbagai fungsi, seperti blok pertama berisi 
-	Login untuk admin, disini pengguna harus menggunakan akun admin dengan memasukkan username dan password. Program 
-	kemudian memeriksa apakah username dan password yang dimasukkan cocok dengan yang ada dalam file "admin.txt" atau 
-	"user.txt". jika login berhasil maka program akan menampilkan pesan berhasil, begitu juga kalau login gagal.
-	 Pada blok kedua berisi login untuk user, dimana login ini sama saja seperti login terhadap admin yaitu menggunakan
-	username dan juga password. hanya saja ada ketentuan yang berbeda antara admin dan user. di bagian user, user dapat 
-	melihat buku yang tersedia, meminjam buku, mengembalikan buku, atau keluar dari program login tersebut. kemudian yang
-	blokyang ketiga ada Operasi Admin, dimana berisi tentang cara menjalan kan operasi admin tentang menajemen buku 
-	yang mencakup beberapa pilihan seperti menambah, menghapus, atau mengedit buku dalam daftar. dimana saat setiap operasi 
-	yang dilakukan bersarkan input pengguna dan diulang hingga pengguna memilih untuk keluar dari program login ini.
+	Di dalam file ini digunakan sebagai program utama yang memungkinkan admin untuk login dan mengelola 
+	daftar buku,serta memungkinkan pengguna atau user untuk login dan melakukan operasi terkait buku 
+	sesuai yang ingin di akses.Di dalam file ini berisi 3 blok kode program yang bertugas menangani 
+	berbagai fungsi, seperti blok pertama berisi Login untuk admin, disini pengguna harus menggunakan 
+	akun admin dengan memasukkan username dan password. Program kemudian memeriksa apakah username dan 
+	password yang dimasukkan cocok dengan yang ada dalam file "admin.txt" atau "user.txt". jika login 
+	berhasil maka program akan menampilkan pesan berhasil, begitu juga kalau login gagal.Pada blok kedua 
+	berisi login untuk user, dimana login ini sama saja seperti login terhadap admin yaitu menggunakan
+	username dan juga password. hanya saja ada ketentuan yang berbeda antara admin dan user. di bagian 
+	user, user dapat melihat buku yang tersedia, meminjam buku, mengembalikan buku, atau keluar dari 
+	program login tersebut. kemudian yang blok yang ketiga ada Operasi Admin, dimana berisi tentang cara 
+	menjalan kan operasi admin tentang menajemen buku yang mencakup beberapa pilihan seperti menambah, 
+	menghapus, atau mengedit buku dalam daftar. dimana saat setiap operasi yang dilakukan bersarkan input 
+	pengguna dan diulang hingga pengguna memilih untuk keluar dari program login ini.
 
 file login.c
-	login.c adalah sebuah file yang berisi untuk menentukan berhasil atau tidaknya saat login.login ini terbagi menjadi dua 
-	yitu memilih menggunakan akun sebagain user atau akun sebagai admin. Kemudian pengguna akan diperintahkan untuk mengisi
-	username dan password. Apabila akun yang dipilih adalah akun user maka file yang digunakan adalah user.txt dan 
-	apabila akun yang dipilih adalah akun admin, file yang digunakan adalah admin.txt. Kedua file txt tersebut berisi username 
-	dan password yang sudah terdaftar sehingga apabila username dan password benar sesuai dengan txt tersebut maka login berhasil. 
-	Namun, apabila username atau password salah atau tidak terdaftar maka login akan gagal.
+	login.c adalah sebuah file yang berisi untuk menentukan berhasil atau tidaknya saat login.login ini 
+	terbagi menjadi dua yitu memilih menggunakan akun sebagain user atau akun sebagai admin. Kemudian 
+	pengguna akan diperintahkan untuk mengisi username dan password. Apabila akun yang dipilih adalah 
+	akun user maka file yang digunakan adalah user.txt dan apabila akun yang dipilih adalah akun admin, 
+	file yang digunakan adalah admin.txt. Kedua file txt tersebut berisi username dan password yang 
+	sudah terdaftar sehingga apabila username dan password benar sesuai dengan txt tersebut maka login 
+	berhasil. Namun, apabila username atau password salah atau tidak terdaftar maka login akan gagal.
 
 file user.txt
 	User.txt adalah sebuah file berbentuk txt yang berisi tentang username dan password dari akun
