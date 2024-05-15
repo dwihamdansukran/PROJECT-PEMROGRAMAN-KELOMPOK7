@@ -1,71 +1,56 @@
+#include <stdio.h>
+#include <string.h>
 #include "header.h"
 
-#define MAX_LENGTH 50
+// Fungsi untuk masuk
+void login()
+{
+    char username[100];
+    char password[100];
 
-int main() {
-    int choice;
-    char username[MAX_LENGTH], password[MAX_LENGTH];
-    char filename[MAX_LENGTH];
+    printf("\n----------------------------------------------------------");
+    printf("\nSelamat Datang di Sistem Peminjaman Buku Perpustakaan");
+    printf("\nSilakan login untuk melanjutkan ke Menu Perpustakaan.");
+    printf("\n----------------------------------------------------------\n");
 
-    printf("Selamat datang di program login.\n");
-    printf("Pilih jenis akun:\n");
-    printf("1. Admin\n");
-    printf("2. User\n");
-    printf("Masukkan pilihan (1 atau 2): ");
-    scanf("%d", &choice);
 
-    if (choice != 1 && choice != 2) {
-        printf("Pilihan tidak valid.\n");
-        return 1;
-    }
+    printf("\nUsername : ");
+    scanf("%s", username);
+    clearBuffer();
 
-    // Menentukan nama file berdasarkan pilihan akun yaitu admin.txt atau user.txt
-    if (choice == 1) {
-        strcpy(filename, "admin.txt");
-    } else {
-        strcpy(filename, "user.txt");
-    }
+    printf("Password : ");
+    scanf("%s", password);
+    clearBuffer();
 
-    // Membuka file
-    FILE *file = fopen(filename, "r");
+    FILE *file = fopen("users.txt", "r");
     if (file == NULL) {
-        printf("Gagal membuka file.\n");
-        return 1;
+        printf("Error: Tidak dapat membuka file users.txt.\n");
+        return;
     }
 
-    // Meminta username dan password 
-    printf("Masukkan username: ");
-    getchar(); // Membersihkan buffer keyboard
-    fgets(username, sizeof(username), stdin);
-    username[strcspn(username, "\n")] = '\0'; // Menghapus karakter newline dari username
-    printf("Masukkan password: ");
-    fgets(password, sizeof(password), stdin);
-    password[strcspn(password, "\n")] = '\0'; // Menghapus karakter newline dari password
-
-    // Memeriksa username dan password dalam file
-    char line[MAX_LENGTH];
-    int LogIn = 0;
-    while (fgets(line, sizeof(line), file)) {
-        char *storedUsername = strtok(line, ","); //fungsi strtok berguna untuk memisahkan satu baris menjadi dua bagian dengan koma
-        char *storedPassword = strtok(NULL, "\n");
-
-        // Membandingkan username dan password
-        if (strcmp(username, storedUsername) == 0 && strcmp(password, storedPassword) == 0) {
-            LogIn = 1;
+    int loggedIn = 0;
+    char file_username[100];
+    char file_password[100];
+    int isAdmin;
+    while (fscanf(file, "%s %s %d", file_username, file_password, &isAdmin) != EOF) {
+        if (strcmp(username, file_username) == 0 && strcmp(password, file_password) == 0) {
+            loggedIn = 1;
+            if (isAdmin) {
+                printf("\nLogin berhasil! Anda masuk sebagai Admin.\n");
+                adminMenu();
+            } else {
+                printf("\nLogin berhasil! Anda masuk sebagai User\n");
+                userMenu(); 
+            }
             break;
         }
     }
 
-    // Menampilkan hasil login
-    if (LogIn) {
-        printf("Login berhasil sebagai %s.\n", (choice == 1) ? "admin" : "user");
-    } else {
-        printf("Login gagal. Username atau password salah.\n");
-    }
-
-    // Menutup file
     fclose(file);
 
-    return 0;
+    if (!loggedIn) {
+        printf("Username tidak ditemukan atau password yang dimasukkan salah. Silakan coba lagi.\n");
+        login();
+    }
 }
 
