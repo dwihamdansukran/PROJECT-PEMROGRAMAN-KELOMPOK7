@@ -1,21 +1,21 @@
 Id Buku: 1
-Judul: Judul: LaskarPelangi
-Penulis: Penulis: Prapto
-Penerbit: Penerbit: gramedia
+Judul: Laskar Pelangi
+Penulis: Prapto
+Penerbit: gramedia
 Jumlah Halaman: 100
 Tahun Terbit: 2020
 Jumlah Tersedia: 1
 Id Buku: 2
-Judul: Judul: lelah
-Penulis: Penulis: kiki
-Penerbit: Penerbit: gramedia
+Judul: lelah
+Penulis: kiki
+Penerbit: gramedia
 Jumlah Halaman: 2
 Tahun Terbit: 2005
 Jumlah Tersedia: 2
 Id Buku: 3
-Judul: Judul: pasti bisa
-Penulis: Penulis: human
-Penerbit: Penerbit: gramedia
+Judul: pasti bisa
+Penulis: human
+Penerbit: gramedia
 Jumlah Halaman: 3
 Tahun Terbit: 2020
 Jumlah Tersedia: 1
