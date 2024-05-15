@@ -1,0 +1,2 @@
+user userpass 0
+admin adminpass 1
