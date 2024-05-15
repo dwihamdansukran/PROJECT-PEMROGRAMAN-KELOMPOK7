@@ -77,14 +77,6 @@ file header.h
 	untuk menghindari pengulangan definisi jika file header.h disertakan lebih dari satu kali dalam
 	satu unit kompilasi.
 
-file library.c
-	Library.c adalah sebuah file yang berfungsi untuk meminjam buku dan mengembalikan buku. Pada
-	kode ini pengguna yang ingin meminjam atau mengembalikan buku akan diperintahkan untuk memasukkan
-	ID dari buku yang dipinjam atau dikembalikan. ID yang dimasukkan akan dicek pada file books.txt
-	kemudian apabila ID buku tersebut benar maka buku berhasil dipinjam atau dikembalikan. Sebelum
-	melakukan peminjama atau pengembalian, pengguna akan diminta untuk login terlebih dahulu baik 
-	sebagai admnin maupun user.
-
 file books.txt
 	books.txt adalah sebuah file berbentuk txt yang berisi tentang isi dari daftar buku-buku yg ada
 	di perpustakaan. Urutan dari daftar buku tersebut adalah dimulai dari ID buku, Judul buku,
