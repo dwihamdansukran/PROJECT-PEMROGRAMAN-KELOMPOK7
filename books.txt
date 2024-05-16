@@ -26,3 +26,150 @@ Penerbit: gramed
 Jumlah Halaman: 435
 Tahun Terbit: 2019
 Jumlah Tersedia: 2
+Id Buku: 5
+Judul: Negeri 5 Menara
+Penulis: Ahmad Fuadi
+Penerbit: Gramedia
+Jumlah Halaman: 423
+Tahun Terbit: 2009
+Jumlah Tersedia: 5
+Id Buku: 6
+Judul: Bumi
+Penulis: Tere Liye
+Penerbit: Gramedia
+Jumlah Halaman: 440
+Tahun Terbit: 2014
+Jumlah Tersedia: 3
+Id Buku: 7
+Judul: Hujan
+Penulis: Tere Liye
+Penerbit: Gramedia
+Jumlah Halaman: 320
+Tahun Terbit: 2016
+Jumlah Tersedia: 4
+Id Buku: 8
+Judul: ily
+Penulis: Tere Liye
+Penerbit: Gramed
+Jumlah Halaman: 435
+Tahun Terbit: 2019
+Jumlah Tersedia: 2
+Id Buku: 9
+Judul: Laskar Pelangi
+Penulis: Andrea Hirata
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 529
+Tahun Terbit: 2005
+Jumlah Tersedia: 6
+Id Buku: 10
+Judul: Perahu Kertas
+Penulis: Dee Lestari
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 444
+Tahun Terbit: 2009
+Jumlah Tersedia: 2
+Id Buku: 11
+Judul: Supernova: Ksatria, Puteri, dan Bintang Jatuh
+Penulis: Dee Lestari
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 254
+Tahun Terbit: 2001
+Jumlah Tersedia: 3
+Id Buku: 12
+Judul: Sang Pemimpi
+Penulis: Andrea Hirata
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 292
+Tahun Terbit: 2006
+Jumlah Tersedia: 4
+Id Buku: 13
+Judul: Ayat-Ayat Cinta
+Penulis: Habiburrahman El Shirazy
+Penerbit: Republika
+Jumlah Halaman: 418
+Tahun Terbit: 2004
+Jumlah Tersedia: 5
+Id Buku: 14
+Judul: 5 CM
+Penulis: Donny Dhirgantoro
+Penerbit: Grasindo
+Jumlah Halaman: 381
+Tahun Terbit: 2005
+Jumlah Tersedia: 4
+Id Buku: 15
+Judul: Tenggelamnya Kapal Van Der Wijck
+Penulis: Hamka
+Penerbit: Bulan Bintang
+Jumlah Halaman: 255
+Tahun Terbit: 1938
+Jumlah Tersedia: 3
+Id Buku: 16
+Judul: Rectoverso
+Penulis: Dee Lestari
+Penerbit: Goodfaith Production
+Jumlah Halaman: 160
+Tahun Terbit: 2008
+Jumlah Tersedia: 4
+Id Buku: 17
+Judul: Madre
+Penulis: Dee Lestari
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 200
+Tahun Terbit: 2011
+Jumlah Tersedia: 3
+Id Buku: 18
+Judul: Rantau 1 Muara
+Penulis: Ahmad Fuadi
+Penerbit: Gramedia
+Jumlah Halaman: 472
+Tahun Terbit: 2013
+Jumlah Tersedia: 2
+Id Buku: 19
+Judul: Di Bawah Lindungan Ka'bah
+Penulis: Hamka
+Penerbit: Bulan Bintang
+Jumlah Halaman: 123
+Tahun Terbit: 1938
+Jumlah Tersedia: 4
+Id Buku: 20
+Judul: Rindu
+Penulis: Tere Liye
+Penerbit: Republika
+Jumlah Halaman: 544
+Tahun Terbit: 2014
+Jumlah Tersedia: 5
+Id Buku: 21
+Judul: Dilan: Dia adalah Dilanku Tahun 1990
+Penulis: Pidi Baiq
+Penerbit: Pastel Books
+Jumlah Halaman: 332
+Tahun Terbit: 2014
+Jumlah Tersedia: 4
+Id Buku: 22
+Judul: Pulang
+Penulis: Leila S. Chudori
+Penerbit: Kepustakaan Populer Gramedia
+Jumlah Halaman: 464
+Tahun Terbit: 2012
+Jumlah Tersedia: 3
+Id Buku: 23
+Judul: Supernova: Akar
+Penulis: Dee Lestari
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 240
+Tahun Terbit: 2002
+Jumlah Tersedia: 2
+Id Buku: 24
+Judul: Cantik Itu Luka
+Penulis: Eka Kurniawan
+Penerbit: Gramedia Pustaka Utama
+Jumlah Halaman: 511
+Tahun Terbit: 2002
+Jumlah Tersedia: 4
+Id Buku: 25
+Judul: Bidadari-Bidadari Surga
+Penulis: Tere Liye
+Penerbit: Republika
+Jumlah Halaman: 427
+Tahun Terbit: 2008
+Jumlah Tersedia: 3
