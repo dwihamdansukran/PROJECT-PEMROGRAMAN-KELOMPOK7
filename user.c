@@ -31,7 +31,9 @@ void userMenu()
             kembalikanBuku();
             break;
         case 5:
+            printf("\n------------------------------------------------");
             printf("Terimakasih telah mengunjungi perpustakaan kami.\n");
+            printf("\n------------------------------------------------");
             exit(0);
             return;
         default:
