@@ -8,10 +8,9 @@ void login()
     char username[100];
     char password[100];
 
-    printf("\n----------------------------------------------------------");
+    printf("\n--------------------------------------------------------");
     printf("\nSelamat Datang di Sistem Peminjaman Buku Perpustakaan");
-    printf("\nSilakan login untuk melanjutkan ke Menu Perpustakaan.");
-    printf("\n----------------------------------------------------------\n");
+    printf("\n--------------------------------------------------------\n");
 
 
     printf("\nUsername : ");
