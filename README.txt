@@ -97,10 +97,13 @@ file header.h
 	satu unit kompilasi.
 
 file books.txt
-	books.txt adalah sebuah file berbentuk txt yang berisi tentang isi dari daftar buku-buku yg ada
-	di perpustakaan. Urutan dari daftar buku tersebut adalah dimulai dari ID buku, Judul buku,
-	Penulis, Penerbit, Jumlah halama, Tahun Terbit, serta Stok buku yang tersedia di perpusatakaan
-	tersebut. Pada file books.txt ini terdapat 100 list buku pada perpustakaan.
+	File books.txt adalah sebuah file teks yang berisi daftar buku-buku beserta detailnya, seperti
+	ID Buku, Judul, Penulis, Penerbit, Jumlah Halaman, Tahun Terbit, dan Jumlah Tersedia. Setiap buku
+	memiliki entri yang terdiri dari beberapa baris dengan format yang telah ditentukan, yaitu tiap
+	baris mewakili satu detail buku. Dengan menggunakan format ini, file books.txt menjadi sebuah
+	struktur data yang terorganisir dan dapat dibaca dengan mudah baik oleh manusia maupun oleh
+	program komputer. File ini bisa digunakan sebagai basis data sederhana untuk mengelola informasi
+	tentang koleksi buku dalam sebuah perpustakaan atau toko buku.
 
 file makefile 
 	Pada file ini berisi tentang syntax untuk meng-compile program dan perintah untuk menjalankan 
