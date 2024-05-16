@@ -78,6 +78,15 @@ file clearBuffer.c
 	karakter newline dari buffer. Hal ini membantu mencegah masalah dalam pengambilan input berikutnya
 	dan memastikan bahwa program dapat menerima input baru dengan benar.
 
+file simpanData.c
+	Fungsi `simpanDataBuku` dalam kode C ini bertujuan untuk menyimpan data buku yang ada dalam array
+	struktur buku ke dalam sebuah file teks, menggantikan konten file yang ada dengan data terbaru. 
+	Fungsi ini membuka file yang ditentukan oleh makro `FILENAME` dalam mode tulis ("w") dan memeriksa
+	keberhasilannya; jika gagal, fungsi mencetak pesan kesalahan dan berhenti. Kemudian, fungsi menggunakan
+	`fprintf` untuk menulis detail setiap buku (ID Buku, Judul, Penulis, Penerbit, Jumlah Halaman, Tahun
+	Terbit, dan Jumlah Tersedia) ke dalam file dalam format yang telah ditentukan. Setelah semua data buku
+	ditulis, file ditutup dengan `fclose` untuk memastikan data tersimpan dengan benar.
+
 file header.h
 	header.h adalah sebuah file header yang berisi deklarasi untuk fungsi-fungsi dan tipe data 
 	yang akan digunakan di dalah program. Dengan menyertakan header.h dalam file,
