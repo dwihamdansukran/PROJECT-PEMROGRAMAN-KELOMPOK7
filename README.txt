@@ -61,12 +61,14 @@ file user.txt
 	kode yang dibuat berupa syntax yang dapat memisahkan sebuah baris menjadi dua bagian diantara
 	tanda koma.
 
-file admin.txt
-	Admin.txt adalah sebuah file berbentuk txt yang berisi tentang username dan password dari akun
-	admin yang akan dipilih oleh pengguna pada saat login. Username dari Admin berada pada sebelah kiri
-	sebelum tanda koma dan password dari akun Admin berada di sebelah kanan atau setelah koma karena
-	kode yang dibuat berupa syntax yang dapat memisahkan sebuah baris menjadi dua bagian diantara
-	tanda koma.
+file bacaData.c
+	Fungsi `bacaDataBuku` dalam kode C ini bertujuan untuk membaca data buku dari sebuah file teks
+	dan menyimpannya dalam array struktur buku hingga mencapai akhir file atau jumlah buku yang dibaca
+	mencapai batas maksimum (`MAX_BUKU`). Fungsi ini membuka file yang ditentukan, membaca informasi
+	tiap buku (ID Buku, Judul, Penulis, Penerbit, Jumlah Halaman, Tahun Terbit, dan Jumlah Tersedia)
+	menggunakan `fscanf` dan `fgets`, menghilangkan karakter newline dengan `strtok`, dan meningkatkan
+	penghitung jumlah buku setiap kali data baru ditambahkan. Jika file tidak dapat dibuka, fungsi
+	mencetak pesan kesalahan dan berhenti, kemudian menutup file setelah selesai membaca semua data.
 
 file header.h
 	header.h adalah sebuah file header yang berisi deklarasi untuk fungsi-fungsi dan tipe data 
