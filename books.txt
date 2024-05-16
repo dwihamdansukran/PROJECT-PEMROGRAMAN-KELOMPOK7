@@ -173,3 +173,178 @@ Penerbit: Republika
 Jumlah Halaman: 427
 Tahun Terbit: 2008
 Jumlah Tersedia: 3
+Id Buku: 26
+Judul: Surga Yang Tak Dirindukan
+Penulis: Asma Nadia
+Penerbit: Gagas Media
+Jumlah Halaman: 370
+Tahun Terbit: 2015
+Jumlah Tersedia: 5
+Id Buku: 27
+Judul: Sepotong Hati yang Baru
+Penulis: Tere Liye
+Penerbit: Republika
+Jumlah Halaman: 536
+Tahun Terbit: 2019
+Jumlah Tersedia: 4
+Id Buku: 28
+Judul: Merantau Ke Deli
+Penulis: Hamka
+Penerbit: Bulan Bintang
+Jumlah Halaman: 238
+Tahun Terbit: 1942
+Jumlah Tersedia: 3
+Id Buku: 29
+Judul: Tere-Liye-Akhir-Masa
+Penulis: Tere Liye
+Penerbit: Republika
+Jumlah Halaman: 512
+Tahun Terbit: 2018
+Jumlah Tersedia: 2
+Id Buku: 30
+Judul: Catatan Hati Seorang Istri
+Penulis: Asma Nadia
+Penerbit: Gagas Media
+Jumlah Halaman: 352
+Tahun Terbit: 2014
+Jumlah Tersedia: 4
+Id Buku: 31
+Judul: Laskar Pelangi: Edensor
+Penulis: Andrea Hirata
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 328
+Tahun Terbit: 2007
+Jumlah Tersedia: 3
+Id Buku: 32
+Judul: Laut Bercerita
+Penulis: Leila S. Chudori
+Penerbit: Kepustakaan Populer Gramedia
+Jumlah Halaman: 365
+Tahun Terbit: 2017
+Jumlah Tersedia: 5
+Id Buku: 33
+Judul: Ketika Cinta Bertasbih
+Penulis: Habiburrahman El Shirazy
+Penerbit: Republika
+Jumlah Halaman: 428
+Tahun Terbit: 2004
+Jumlah Tersedia: 2
+Id Buku: 34
+Judul: Di Atas Sajadah Cinta
+Penulis: Habiburrahman El Shirazy
+Penerbit: Republika
+Jumlah Halaman: 352
+Tahun Terbit: 2006
+Jumlah Tersedia: 4
+Id Buku: 35
+Judul: Perahu Kertas 2
+Penulis: Dee Lestari
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 438
+Tahun Terbit: 2012
+Jumlah Tersedia: 3
+Id Buku: 36
+Judul: Madilog
+Penulis: Tan Malaka
+Penerbit: Pustaka Jaya
+Jumlah Halaman: 320
+Tahun Terbit: 1962
+Jumlah Tersedia: 2
+Id Buku: 37
+Judul: La Tahzan
+Penulis: Aidh al-Qarni
+Penerbit: Lentera Hati
+Jumlah Halaman: 352
+Tahun Terbit: 2002
+Jumlah Tersedia: 5
+Id Buku: 38
+Judul: The Rainbow Troops
+Penulis: Andrea Hirata
+Penerbit: Farrar, Straus and Giroux
+Jumlah Halaman: 292
+Tahun Terbit: 2008
+Jumlah Tersedia: 4
+Id Buku: 39
+Judul: Padang Bulan
+Penulis: Andrea Hirata
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 306
+Tahun Terbit: 2008
+Jumlah Tersedia: 3
+Id Buku: 40
+Judul: Kambing Jantan: Sebuah Catatan Harian Pelajar Bodoh
+Penulis: Raditya Dika
+Penerbit: Gagas Media
+Jumlah Halaman: 256
+Tahun Terbit: 2005
+Jumlah Tersedia: 2
+Id Buku: 41
+Judul: Belenggu
+Penulis: Armijn Pane
+Penerbit: Balai Pustaka
+Jumlah Halaman: 224
+Tahun Terbit: 1938
+Jumlah Tersedia: 3
+Id Buku: 42
+Judul: Bidadari-Bidadari Surga
+Penulis: Tere Liye
+Penerbit: Republika
+Jumlah Halaman: 422
+Tahun Terbit: 2009
+Jumlah Tersedia: 4
+Id Buku: 43
+Judul: Ayat-Ayat Cinta 2
+Penulis: Habiburrahman El Shirazy
+Penerbit: Republika
+Jumlah Halaman: 360
+Tahun Terbit: 2006
+Jumlah Tersedia: 3
+Id Buku: 44
+Judul: Sabtu Bersama Bapak
+Penulis: Adhitya Mulya
+Penerbit: Kepustakaan Populer Gramedia
+Jumlah Halaman: 272
+Tahun Terbit: 2010
+Jumlah Tersedia: 4
+Id Buku: 45
+Judul: Cinta di Dalam Gelas
+Penulis: Andrea Hirata
+Penerbit: Bentang Pustaka
+Jumlah Halaman: 276
+Tahun Terbit: 2012
+Jumlah Tersedia: 5
+Id Buku: 46
+Judul: Anak Semua Bangsa
+Penulis: Pramoedya Ananta Toer
+Penerbit: Hasta Mitra
+Jumlah Halaman: 416
+Tahun Terbit: 1980
+Jumlah Tersedia: 3
+Id Buku: 47
+Judul: Pulang
+Penulis: Tere Liye
+Penerbit: Republika
+Jumlah Halaman: 512
+Tahun Terbit: 2014
+Jumlah Tersedia: 2
+Id Buku: 48
+Judul: Ronggeng Dukuh Paruk
+Penulis: Ahmad Tohari
+Penerbit: Gramedia Pustaka Utama
+Jumlah Halaman: 500
+Tahun Terbit: 1982
+Jumlah Tersedia: 3
+Id Buku: 49
+Judul: Pergi
+Penulis: Tere Liye
+Penerbit: Republika
+Jumlah Halaman: 432
+Tahun Terbit: 2016
+Jumlah Tersedia: 4
+Id Buku: 50
+Judul: Jingga dan Senja
+Penulis: Esti Kinasih
+Penerbit: Gagas Media
+Jumlah Halaman: 320
+Tahun Terbit: 2005
+Jumlah Tersedia: 3
