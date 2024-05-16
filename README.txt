@@ -70,6 +70,14 @@ file bacaData.c
 	penghitung jumlah buku setiap kali data baru ditambahkan. Jika file tidak dapat dibuka, fungsi
 	mencetak pesan kesalahan dan berhenti, kemudian menutup file setelah selesai membaca semua data.
 
+file clearBuffer.c
+	Fungsi `clearBuffer` dalam kode C ini berfungsi untuk membersihkan buffer input dengan cara membaca
+	dan membuang semua karakter yang tersisa dalam buffer hingga mencapai karakter newline (`\n`) atau
+	end-of-file (`EOF`). Fungsi ini berguna untuk memastikan tidak ada data residual yang mengganggu
+	input berikutnya, terutama setelah menggunakan fungsi input seperti `scanf` yang tidak menghapus
+	karakter newline dari buffer. Hal ini membantu mencegah masalah dalam pengambilan input berikutnya
+	dan memastikan bahwa program dapat menerima input baru dengan benar.
+
 file header.h
 	header.h adalah sebuah file header yang berisi deklarasi untuk fungsi-fungsi dan tipe data 
 	yang akan digunakan di dalah program. Dengan menyertakan header.h dalam file,
