@@ -31,6 +31,9 @@ void adminMenu()
             editBuku();
             break;
         case 5:
+            printf("\n------------------------------------------------");
+            printf("\nTerimakasih telah mengunjungi perpustakaan kami.");
+            printf("\n------------------------------------------------");
             exit(0);
             return;
         default:
