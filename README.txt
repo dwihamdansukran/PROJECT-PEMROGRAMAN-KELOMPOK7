@@ -106,5 +106,13 @@ file books.txt
 	tentang koleksi buku dalam sebuah perpustakaan atau toko buku.
 
 file makefile 
-	Pada file ini berisi tentang syntax untuk meng-compile program dan perintah untuk menjalankan 
-	progranm di atas. 
+	Makefile adalah sebuah file teks khusus yang digunakan dalam pengembangan perangkat lunak untuk
+	mengotomatisasi proses kompilasi dan pembangunan program. Dengan menggunakan Makefile, pengembang
+	dapat menentukan aturan-aturan untuk mengkompilasi setiap bagian dari proyek perangkat lunak mereka,
+	serta mendefinisikan dependensi antar berkas. Hal ini memungkinkan pengembang untuk mengelola proyek
+	dengan lebih efisien, menghindari kompilasi berulang kali dari berkas yang sama, dan memastikan bahwa
+	hanya bagian-bagian tertentu yang diperlukan yang dikompilasi ulang saat ada perubahan. Makefile juga
+	memungkinkan pengembang untuk menjalankan tugas tambahan, seperti membersihkan file sementara atau
+	menjalankan pengujian otomatis, dengan mudah melalui perintah make. Dengan demikian, Makefile menjadi
+	alat yang sangat berharga dalam mengelola kompleksitas pengembangan perangkat lunak dengan cara yang
+	terstruktur dan terotomatisasi.
